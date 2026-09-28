@@ -1,0 +1,571 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a668230f-5041-4187-a1a3-431b36ea7a8c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "continuation with list datatypes:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "820e21b0-09c0-4fdb-85d8-3b9f6b3c12df",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "fe107bcd-da35-45ad-89d4-d41b97ef25ce",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['bmw', 'suzuki', 'toyota', 'audi', 'honda', 'benz', 'rangerover']\n"
+     ]
+    }
+   ],
+   "source": [
+    "cars = ['bmw','suzuki','toyota','audi','honda','benz','rangerover']\n",
+    "\n",
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8cadb987-9c0f-4d82-b783-2be5003a5a88",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a73217bf-879e-4170-8e1e-7ded2d9d16e4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# req : i want to get bmw in the output....?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "99177fb8-f56a-448a-b303-8f0c907f0b4f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bmw\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "74d41acd-9f3d-489f-93ba-2e13811dea41",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cdf4fa29-b824-4bf3-bc3e-93e03a9ca3f0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "organising the list datatypes:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "022ce80b-51f0-4f69-9324-a93f6561945e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# i want to organise the list in the alphabetical order....>A-Z"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d829d7ff-9a12-4b1b-837f-c886f619db80",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "1.temp approach =======>sorted(we will be having original order of the list)\n",
+    "2.permanent approach====>sort(changes are implied permanently)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "202c9798-7d9d-42b8-8fb0-eac3921f24a1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "9e1b9399-7343-43f6-8062-fff15c12861c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['audi', 'benz', 'bmw', 'honda', 'rangerover', 'suzuki', 'toyota']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(sorted(cars))      # A-Z....A,B,B,H,R,S,T"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "d405ea88-766b-4520-b6d0-7dd46699cb06",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['bmw', 'suzuki', 'toyota', 'audi', 'honda', 'benz', 'rangerover']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars)             # this is the original order...."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "23694d57-e063-4761-a58e-4eb8ea2eaa64",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "66aa2965-0b05-474e-8278-7add25f80066",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['audi', 'benz', 'bmw', 'honda', 'rangerover', 'suzuki', 'toyota']\n"
+     ]
+    }
+   ],
+   "source": [
+    "cars.sort() \n",
+    "\n",
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "dc697b4e-d3f2-47cb-8cc0-8bbe3366678e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['audi', 'benz', 'bmw', 'honda', 'rangerover', 'suzuki', 'toyota']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5f6ad158-3b8a-4f1a-b5a1-9d892a7d18cd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "79b6b433-c1c7-4598-9383-8c2da3a6972b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Interview question : what is the difference between sorted and sort method in datatypes...?**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "76bcadbf-8d49-4d46-ba24-c52546db8d0d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9afdfa14-b789-44f0-909f-c69a6ce0e5ce",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# req : i want to print the list in reverse order/opposite order...?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "63a7492a-1267-45c1-8de4-5ea0bda60c3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['audi', 'benz', 'bmw', 'honda', 'rangerover', 'suzuki', 'toyota']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars)        # A-Z"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bcdd02c9-095a-45ef-93e5-61ef195289c1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Z-A"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "ffc66d26-e1d0-4765-8a4c-068081176e37",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['toyota', 'suzuki', 'rangerover', 'honda', 'bmw', 'benz', 'audi']\n"
+     ]
+    }
+   ],
+   "source": [
+    "cars.reverse()\n",
+    "\n",
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "471d27f4-46d3-483c-b3ae-12d2f37ca510",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a422063e-ec2f-429f-b2be-582f22053db9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# req : i want to know the no of elements in the above list....?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "03172881-f753-450f-8413-e3d40fd3aab2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(cars)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "c1d7b2b7-f23a-4246-9beb-b0919cebb9d9",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "aae55714-4f99-4a6b-a533-19466f6538a6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Introduction to slicing of list:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9e4f6377-38e1-4c1c-8831-21215eb1adc1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# General syntax of slicing : [start_value :stop_value : step_count]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "0392be3e-07dc-4a68-8da8-5fb71698c950",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['dinesh', 'javed', 'chandni', 'masooda', 'akhila', 'sana', 'karthik', 'srikanth']\n"
+     ]
+    }
+   ],
+   "source": [
+    "students = ['dinesh','javed','chandni','masooda','akhila','sana','karthik','srikanth']\n",
+    "\n",
+    "print(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e234f3a0-a4c1-40aa-85ac-c8c85779fa89",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Note : last value is always exclusive to include increment the index by +1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "394c0f25-a03e-4cdb-a8ce-17e086c98e00",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "28f231ad-2b33-494f-8535-c7ffe4b8dad9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['dinesh']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# req : i want to include dinesh and javed in the slice ....\n",
+    "\n",
+    "print(students[0:1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "1aa9b905-e9fb-41d3-9285-173cad77416e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['dinesh', 'javed']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[0:2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "215a8f91-42d1-4bc5-bd14-83b6526b2dbf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " # chandni and masooda name in the output...."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "7c544a18-54f4-4822-8387-eba59dcbdcf6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['chandni', 'masooda']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[2:4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "42784b44-3291-42e8-873e-9f123e847f3c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# req : i want akhila and sana in the output"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "d9db863a-4f27-4962-995b-469e9d5a886e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['akhila', 'sana']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[4:6])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "f072a212-3970-4113-ad8d-53374db28c57",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['karthik', 'srikanth']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[6:8])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "5ec2df36-b7eb-458d-aac7-667265aea7f0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['dinesh', 'chandni', 'akhila', 'karthik']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[0:8:2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "d10b8658-0e45-47ea-9924-0980e0e5b226",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['dinesh', 'javed', 'chandni', 'masooda', 'akhila', 'sana', 'karthik', 'srikanth']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "12bc1b03-2a71-4c4a-b88b-21274e7c83b3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
